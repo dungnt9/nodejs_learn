@@ -23,7 +23,10 @@
   "dependencies": {
     "express": "^4.19.2",
     "express-handlebars": "^7.1.2",
-    "mongoose": "^8.5.1"
+    "method-override": "^3.0.0",
+    "mongoose": "^8.5.1",
+    "mongoose-delete": "^1.0.2",
+    "mongoose-slug-updater": "^3.3.0"
   },
   "lint-staged": {
     "src/**/*.{js, scss, json}": "prettier --single-quote --trailing-comma all --tab-width 4 --write 'src/**/*.{js, json, scss}'"
